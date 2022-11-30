@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #c6cfcb;
+    background-color: #102319;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+.ul-container {
+    display: flex;
+    justify-content:flex-start;
+    gap: 2rem;
+    list-style-type: none;
+    width: 100%;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    padding: 40px;
+    height: 500px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 10px;
+}
+.innerheaderflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutflex {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.btn {
+    background-color: black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 5px white;
+    text-decoration: none;
+}
+a:link {
+    color: #c6cfcb;
+    text-decoration: none;
+}
+a:visited {
+    color: #c6cfcb;
+}
+a:hover{
+    color: #5C0400;
+}
+.doculist {
+    /* display: flex;
+    flex-direction: row;
+    align-content: space-between; */
+}
+
+.about-section {
+    padding: 40px;
+}
